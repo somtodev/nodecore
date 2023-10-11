@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "dev": "ts-node-esm source/app/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.8.4",
